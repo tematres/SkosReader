@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es"><head>
+    <link rel="stylesheet" type="text/css" href="include/skos.css" title="estilo celeste" />
+
+          <style type="text/css">
+                div#leftcolumn{position:absolute;left:10px;top:30px;width:400px;}
+                div#rightcolumn{position:absolute;left:420px;top:30px;width:380px;}
+                </style><!--include sarissa script - platform neutral XML DOM bridge for IE extensions-->
+        <script type="text/javascript" src="include/sarissa.js"></script>
+        <script type="text/javascript" src="include/xpath.js"></script>
+<title>Visor de vocabularios SKOS-CORE (TemaTres)</title>
+      </head>
+      <body onload="javascript:loadData('es.rdf');">
+
+   <div id="arriba"></div>
+    <!-- ###### Header ###### -->
+    <form method="post" action="index.html">
+    <div id="header">
+      <span class="headerTitle"><div id="currentThesaurus"></div></span>
+      <div class="headerLinks">
+      <span id="instruction"></span>
+                <select id="searchcriteria">
+                        <option value="startswith" selected="selected">Comienza con</option>
+                        <option value="contains">Contiene</option>
+                </select>
+                <input id="searchstring" type="text" width="100"><input id="cmdFind" value="Buscar" onclick="javascript:doFind(); return false;" type="button" width="*">
+
+      </div>
+    </div>
+    </form>
+    <!-- ###### menu izq ###### -->
+
+
+    <!-- ###### Body Text ###### -->
+
+  <div id="bodytext">
+                <div class="cajaDerecha" id="termancestry"></div>
+        <div class="cajaMedia" id="termscopenote"></div>
+
+        <span id="recordcount"></span>
+        <div id="searchresult"></div>
+  </div>
+
+    <!-- ###### Footer ###### -->
+
+    <div><div id="footer">
+      <div>
+        <strong>Autor: </strong>
+        <span class="footerCol2"><div id="currentThesaurusAutor"></div></span>
+      </div>
+      <div>
+        <strong>Versión: </strong>
+        <span class="footerCol2"><a href="http://www.r020.com.ar/tematres/" title="TemaTres: gestión de vocabularios controlados">Tematres : gestión de vocabularios controlados</a></span>
+      </div>
+    </div></div>
+  </body>
+</html>

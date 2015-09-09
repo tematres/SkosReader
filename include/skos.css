@@ -1,0 +1,428 @@
+
+/* TITLE: Hoja de estilo celeste basada en Purple Haze*/
+/* URI  : http://www.oswd.org/design/1110/purplehaze/*/
+/* Author: haran= haran{insert@here}wiredcity.com.au*/
+
+
+/* ###### Color Scheme ###### */
+
+/*
+ * CHANGING THE COLOR SCHEME
+ * -------------------------
+ *
+ * Four basic colors were used in the design. To change the
+ * color scheme, just edit these four values below.
+ *
+ */
+
+.topOfPage, q,h1, h2, .headerLinks, .headerLinks , .sideBox div, #footer *
+{ /* Text Color: */  color: #fFF; }
+
+.headerTitle,.headerLinks 
+{ /* Text Color: */  color: #fff; }
+
+
+q,h2,  #header, .sideBox, .sideBox div, #footer
+{ /* Border Color: */  border-color: #CCCCFF; }
+
+#header, .sideBox div,.sideBox a:hover
+{ /* Background Color (darker): */  background-color: #0033CC; }
+
+q,.sideBox a, .sideBox span, #footer
+{ /* Background Color (lighter): */  background-color: #0033CC; }
+
+
+/* ###### Browser-specific Styles ###### */
+
+/* ###### Browser-specific Styles ###### */
+
+/* For IE & Mozilla-based browsers: */
+
+
+/* ###### Body Text ###### */
+
+#bodyText {
+        line-height: 1.5em;
+        margin: 2mm 2em 0 2em;
+        padding: 0 1em 1ex 1em;
+        min-height: 20em;
+}
+
+#bodyText p {
+  padding-bottom: 0ex;
+  font-size: 85%;
+}
+
+
+.topOfPage {
+  font-size: 80%;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-decoration: none;
+  padding-left: 1ex;
+  padding-right: 1ex;
+  float: right;
+}
+
+
+body {
+  background-color: white;
+  color: black;
+  font-family: verdana, tahoma, helvetica, arial, sans-serif;
+  font-size: 95%;
+  margin: 0;
+}
+
+h1, h2, h3,h4 {
+  font-family: "trebuchet ms", tahoma, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 120%;
+  border-bottom: 1px solid;
+  padding-bottom: 0.5ex;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 100%;
+}
+
+h3 {
+  font-size: 95%;
+  color: #330066;
+}
+
+h4{
+  font-size: 95%;
+  margin:inherit;
+  margin-bottom: 1px;
+  margin-left:1px;
+  }
+
+
+acronym {
+  background-color: inherit;
+  color: teal;
+  border-bottom: 1px dashed teal;
+  cursor: help;
+}
+
+code {
+  font-family: "lucida console", monospace;
+  font-size: 90%;
+}
+
+img {
+  border: 0;
+}
+
+
+/* ###### Header ###### */
+
+#header {
+  border-bottom: 2px solid;
+  height: 6em;
+  margin-bottom: 2px;
+  padding: 1em 2.5px 0 10px;
+}
+
+.headerTitle {
+  font-size: 200%;
+}
+
+.headerLinks {
+  text-align: right;
+}
+
+.headerLinks * {
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 1ex;
+}
+
+.headerLinks a:hover {
+  text-decoration: underline;
+}
+
+
+/* ###### Side Box ###### */
+
+.sideBox {
+  border-top: 2px solid;
+  width: 10em;
+  margin-top: 1px;
+}
+
+.sideBox div {
+  font-weight: bold;
+  border-bottom: 1px dashed;
+  padding: 0.1ex 0.1em 0.1ex 0.3em;
+}
+
+.sideBox a, .sideBox a:hover, .sideBox span {
+  color: black;
+  text-decoration: none;
+  line-height: 1.0em;
+  display: block;
+  padding: 1ex 0.5em 1ex 0.75em;
+  font-size: 80%;
+}
+
+/* ###### Footer ###### */
+
+#footer {
+  color: inherit;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  padding-top: 0.75ex;
+  padding-bottom: 0.75ex;
+  clear: both;
+  right: 0px;
+  bottom: 0px;
+}
+
+.footerImg {
+  padding-right: 3mm;
+  padding-top: 2mm;
+  float: right;
+}
+
+#footer div,fieldset {
+  padding-left: 3mm;
+  vertical-align:bottom;
+}
+
+#footer * {
+  background-color: inherit;
+  font-size: 90%;
+}
+
+
+#footer a:hover {
+  text-decoration: none;
+}
+
+.footerCol2 {
+  position: absolute;
+  left: 7em;
+}
+
+
+/* ###### Formularios ###### */
+label{
+font-family: tahoma, verdana, helvetica, arial, sans-serif;
+color: #7373F7;
+font-size: 70%;
+font-weight: bold;
+display : block;
+background: inherit;
+margin-top: 2px;
+
+}
+
+legend{
+padding: 2px;
+}
+
+fieldset{
+min-width: 50%;
+}
+
+
+
+input,select,textarea,radio {
+  font-family: tahoma, verdana, helvetica, arial, sans-serif;
+  font-size: 90%;
+  padding: 1px;
+  }
+
+
+.key{
+  color:navy;
+  text-decoration: underline;
+ }
+
+.formdiv {
+  border-bottom:thin black solid;
+  margin-left:2em;
+  margin-right:2em;
+  margin-bottom:2%;
+  background:#eee;
+  border:1px solid #aaa;;
+  padding:5px;
+  color: black;
+  border-bottom:1px solid #ccc;
+}
+
+ul {
+    font-size: 80%;
+        display:block;
+        list-style: none;
+        margin-top: 1px;
+        padding-left: 10px;
+}
+
+
+
+ol{
+list-style: upper-roman outside;
+}
+
+#bodyText .error {
+  color:red;
+  font-weight: bold ;
+  font-size:14px;
+  margin:1em;
+}
+
+
+
+/* enlaces */
+a:link, a:active, a:visited
+{
+	color: #000080;
+	text-decoration: none;
+}	
+
+a:hover
+{	
+	text-decoration: underline;
+}	
+
+a.button, a.button:visited {	
+	font-weight: normal;
+	text-align: center;		
+	margin: 2px;
+	padding: 2px;
+	text-decoration: none;
+	width: 75;
+	display: block;
+	color: #224059;
+	background-color: #b5c9e2;
+	border: 2px solid;
+	border-top-color:  #cce3ff;
+	border-left-color: #cce3ff;
+	border-bottom-color: #31557f;
+	border-right-color: #31557f;
+}
+a.button:hover {	
+	color: #FF0000;
+	text-decoration: none;
+	}
+a.button:active {
+	color: #FF0000;
+	text-decoration: underline;
+	background-color: #b5c9e2;
+	border-top-color:  #31557f;
+	border-left-color: #31557f;
+	border-bottom-color: #cce3ff;
+	border-right-color: #cce3ff;		
+}
+
+.cajaMedia {
+  /*width: 420px;*/
+  width: 40%;
+  margin-right: 1mm;
+  margin-left: 1mm;
+  float: right;
+  border: solid 1px silver;
+  background-color: #C6DDF8;
+  padding:1em;
+}
+
+.cajaDerecha {
+  /*width: 320px;*/
+  width: 30%;
+  float: right;
+  margin-right: 1mm;
+  float: right;
+  border: solid 1px silver;
+}
+
+
+
+#searchresult{
+	position:relative;
+	border-color: #0000CC;
+	border: none ;
+	height:50%;
+	/*width:400px;*/
+	width: 30%px;
+	overflow:auto;
+	padding:2px;
+	background:white;
+}
+
+#recordcount{
+/*	border: 1px solid silver;
+	background: #f0f0f0;*/
+	padding: 3px 6px;
+}
+
+
+/*## TERMINOS ##*/
+
+div.pt{
+	position:relative;
+	left:10px;}
+
+.pt{
+	margin-left: 1mm;
+	color:#000000;
+	} 
+	
+.rt{
+	margin-left: 2mm;
+	color:#000000;} /*black*/
+.npt{
+	font-style:italic;
+	margin-left: 1mm;
+	color:#000000;} /*black*/
+
+span.hilite {background:#FFFF00;} /*yellow*/
+
+
+/* Configuración de los términos */
+.termFrame {
+	border: solid 1px silver;
+	display: block;
+}
+
+.termFrame span
+{
+	display: block;
+}
+
+.term 
+{
+	padding: 5px;
+	background: #F0F0F0;
+}
+.name {
+	margin-left: 0cm;
+	font-weight: bolder;
+}
+.def
+{
+	font-size: smaller;
+	margin-left: 20px;
+}
+.sn 
+{
+	margin-left: 20px;
+	font-style: oblique;
+	font-size: smaller;
+}
+
+.rels 
+{
+	padding: 5px;
+}
+
+.relsLabel
+{
+	font-weight: bolder;
+}
+
